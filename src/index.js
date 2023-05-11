@@ -4,8 +4,7 @@ import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-//import {Controller} from 'mind-ar/dist/mindar-image.prod.js';
-//console.log("MindARThree", Controller);
+// It does not work with STRICT MODE
 
 const container = document.getElementById("root");
 const root = createRoot(container);

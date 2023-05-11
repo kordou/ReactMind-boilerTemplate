@@ -3,7 +3,7 @@ import { MindARThree } from "mind-ar/dist/mindar-image-three.prod.js";
 import * as THREE from "three";
 import target from "./targets.mind";
 
-export default () => {
+const MindAr = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -37,3 +37,5 @@ export default () => {
     <div style={{ width: "100%", height: "100%" }} ref={containerRef}></div>
   );
 };
+
+export default MindAr;
